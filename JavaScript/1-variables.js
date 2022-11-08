@@ -50,6 +50,80 @@ const sex = 'Female'; //unchanging variable
 /*---*/
 
 
+//========== Arithmetic Operators ==========//
+// Operators:
+// + (Addition)
+// - (Subtraction)
+// * (Multiplication)
+// / (Division)
+// % (Modulo)
+// ++ (Increment)
+// -- (Decrement)
+// += (Addition Assignment)
+// -= (Subtraction Assignment)
+
+/*---*/
+// let modulo1 = 10 % 2; //Returns the remainder of the quotient
+// let modulo2 = 11 % 2;
+
+// console.log(modulo1);
+// console.log(modulo2);
+/*---*/
+
+/*---*/
+// let divisible1 = 71 % 3; //Use case: Can determine whether a number is divisible by 3
+// let divisible2 = 72 % 3;
+
+// console.log(`71 is not divisible by 3 because the modulo value is ${divisible1}. Whereas 72 is divisible by 3 because the modulo value is ${divisible2}`);
+/*---*/
+
+/*---*/
+// let number10 = 10;
+// console.log(`Pre-increment = ${++number10}`);
+
+// let numberTen = 10;
+// console.log(`Post-increment = ${numberTen++}`);
+// console.log(`Post-increment = ${numberTen++}`);
+
+// let numberShi = 10;
+// console.log(`Pre-decrement = ${--numberShi}`);
+
+// let numberSampu = 10;
+// console.log(`Post-decrement = ${numberSampu--}`);
+// console.log(`Post-decrement = ${numberSampu--}`);
+/*---*/
+
+/*---*/
+// let sample = 18;
+// let sampleResult = 18 + 2;
+// console.log(sampleResult);
+
+// sample += 2;
+// console.log(sample);
+
+// let sample2 = 18;
+// let sampleResult2 = 18 - 2;
+// console.log(sampleResult2);
+
+// sample2 -= 2;
+// console.log(sample2);
+
+// let sample3 = 18;
+// let sampleResult3 = 18 * 2;
+// console.log(sampleResult3);
+
+// sample3 *= 2;
+// console.log(sample3);
+
+// let sample4 = 18;
+// let sampleResult4 = 18 / 2;
+// console.log(sampleResult4);
+
+// sample4 /= 2;
+// console.log(sample4);
+/*---*/
+
+
 //========== Type Coercion ==========//
 //Type Coercion - the automatic or implicit conversion of values from one data type to another
 
