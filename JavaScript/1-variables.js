@@ -17,7 +17,7 @@ const sex = 'Female'; //unchanging variable
 
 /*---*/
 // fName = 'Derrick';
-// age = 12;
+// _age = 12;
 // sex = 'Male';
 
 // console.log(fName);
@@ -56,4 +56,48 @@ const sex = 'Female'; //unchanging variable
 /*---*/
 // const combine = fName + age + false; //Type Coercion - the automatic or implicit conversion of values from one data type to another
 // console.log(combine);
+/*---*/
+
+
+//========== Arrays ==========//
+/*---*/
+let numbersArray = [1, 2, 3, 4];
+let alphabet_array = ['a', 'e', 'i', 'o', 'u'];
+let BooleanArray = [true, true, false, true];
+
+// let random_array = [1, 'string', 3, true, 'text', false];
+// console.log(random_array);
+/*---*/
+
+
+//========== Objects ==========//
+/*---*/
+let employee = {
+    employee_id: 1,
+    first_name: 'Greg',
+    last_name: 'Kelly'
+}
+
+// console.log(employee.first_name);
+// console.log(employee['last_name']);
+/*---*/
+
+//========== Destructuring ==========//
+/*---*/
+let [index0, index1, index2] = numbersArray;
+let [firstElement, secondElement] = [123, 321];
+
+// console.log(index2);
+// console.log(`The reverse order of ${firstElement} is ${secondElement}`);
+/*---*/
+
+/*---*/
+let { employeeId, firstName, lastName } = employee;
+let { food, drink } = {
+    food: 'Karekare',
+    drink: 'Milktea'
+}
+
+// console.log(firstName);
+// console.log(`I like to eat ${food} with ${drink}`);
 /*---*/
