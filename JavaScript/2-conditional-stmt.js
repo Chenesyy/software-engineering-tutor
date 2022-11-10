@@ -63,7 +63,7 @@ let two = '2';
 //     console.log('Both conditions needs to be true');
 // }
 
-// if (true && false) {
+// if (true && false && true && true) {
 //     console.log('Even at least one false will make the condition false');
 // }
 /*---*/
@@ -84,7 +84,7 @@ let two = '2';
 // }
 
 // if (!true || true) {
-//     console.log('Even though I turned true to false, there is still another true');
+//     console.log('Even though I turned true to false, there is still another true condition');
 // }
 /*---*/
 
