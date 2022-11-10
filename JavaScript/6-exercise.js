@@ -1,1 +1,0 @@
-// Check if number is odd or even
