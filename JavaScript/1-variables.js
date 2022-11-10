@@ -1,7 +1,7 @@
 //========== Variable Declaration ==========//
 var fName = 'Aven'; //global scope. Not good in practice
 let _age = 32; //local scope. Recommended in practice 
-const sex = 'Female'; //unchanging variable
+const sex = 'Female'; //unchanging variable. Recommended in practice
 // const 123abc = false; //cannot start with numbers
 // const &abc = true; //cannot start with symbols
 
@@ -21,7 +21,7 @@ const sex = 'Female'; //unchanging variable
 // sex = 'Male';
 
 // console.log(fName);
-// console.log(age);
+// console.log(_age);
 // console.log(sex);
 /*---*/
 
@@ -29,17 +29,20 @@ const sex = 'Female'; //unchanging variable
 //========== Strings ==========//
 /*---*/
 // const abc = 'Hello';
-// const xyz = 'World';
+// const xyz = "World";
 // const qwerty = `${abc} ${xyz}`;
 
 // console.log(qwerty);
 // console.log(abc + ' ' + xyz);
+
+// console.log(`Hello, I work at the biggest company in the ${xyz}.`);
+// console.log('Hello, I work at the biggest company in the ' + xyz);
 /*---*/
 
 /*---*/
 // const text = 'Hello I'm Chester';
 // const text = "Hello I'm Chester";
-// console.log(text1);
+// console.log(text);
 
 // // const text2 = "I said: "Gwapo ako"";
 // // const text2 = `I said: "Gwapo ako"`;
@@ -61,13 +64,15 @@ const sex = 'Female'; //unchanging variable
 // -- (Decrement)
 // += (Addition Assignment)
 // -= (Subtraction Assignment)
+// *= (Multiplication Assignment)
+// /= (Division Assignment)
 
 /*---*/
-// let modulo1 = 10 % 2; //Returns the remainder of the quotient
+// let modulo1 = 10 % 2; //Returns the pinaka unang natira when doing division
 // let modulo2 = 11 % 2;
 
-// console.log(modulo1);
-// console.log(modulo2);
+// console.log(modulo1); //0
+// console.log(modulo2); //1
 /*---*/
 
 /*---*/
@@ -83,14 +88,14 @@ const sex = 'Female'; //unchanging variable
 
 // let numberTen = 10;
 // console.log(`Post-increment = ${numberTen++}`);
-// console.log(`Post-increment = ${numberTen++}`);
+// console.log(`Post-increment = ${numberTen}`);
 
 // let numberShi = 10;
 // console.log(`Pre-decrement = ${--numberShi}`);
 
 // let numberSampu = 10;
 // console.log(`Post-decrement = ${numberSampu--}`);
-// console.log(`Post-decrement = ${numberSampu--}`);
+// console.log(`Post-decrement = ${numberSampu}`);
 /*---*/
 
 /*---*/
@@ -128,16 +133,19 @@ const sex = 'Female'; //unchanging variable
 //Type Coercion - the automatic or implicit conversion of values from one data type to another
 
 /*---*/
-// const combine = fName + age + false; //Type Coercion - the automatic or implicit conversion of values from one data type to another
+// const combine = fName + _age + false; //Type Coercion - the automatic or implicit conversion of values from one data type to another
 // console.log(combine);
+
+// const sum = '123' - 12;
+// console.log(sum);
 /*---*/
 
 
 //========== Arrays ==========//
 /*---*/
-let numbersArray = [1, 2, 3, 4];
-let alphabet_array = ['a', 'e', 'i', 'o', 'u'];
-let BooleanArray = [true, true, false, true];
+let numbersArray = [1, 2, 3, 4]; // Camel case
+let alphabet_array = ['a', 'e', 'i', 'o', 'u']; // Snake case
+let BooleanArray = [true, true, false, true]; // Pascal case
 
 // let random_array = [1, 'string', 3, true, 'text', false];
 // console.log(random_array);
@@ -150,9 +158,9 @@ let employee = {
     employee_id: 1,
     first_name: 'Greg',
     last_name: 'Kelly'
-}
+} // key : value aka Key-value pair
 
-// console.log(employee.first_name);
+// console.log(employee.first_name); // dot notation
 // console.log(employee['last_name']);
 /*---*/
 
