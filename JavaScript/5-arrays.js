@@ -11,3 +11,4 @@ let boolean_array = [true, true, false, true];
 //find
 //forEach
 //filter
+//pano malalaman if empty or not si array: if (arr)
