@@ -45,7 +45,7 @@ const threshold = 5;
 /*---*/
 // for (let i = 0; i < 10; i++) {
 //     if (i === threshold) {
-//         continue;
+//         continue; //skips the current iteration
 //     }
 //     console.log(i);
 // }
