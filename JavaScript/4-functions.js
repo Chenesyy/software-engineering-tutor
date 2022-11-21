@@ -182,6 +182,7 @@
 /*---*/
 
 /*---*/
+// // Arrow Function inside curly braces
 // const sum4 = (a, b) => { 
 //     return a + b;
 // }
@@ -201,6 +202,77 @@
 // No parameters?
 // const print = () => console.log("Hello I'm inside print()");
 // print();
+/*---*/
+
+
+//========== Optional/Default Parameters ==========//
+/*---*/
+// const functionWithoutDefault = (Fname, Mname, Lname) => {
+//     return `Hello! My full name is ${Lname}, ${Fname} ${Mname}`;
+// };
+
+// console.log(functionWithoutDefault('Ni Chester', 'Super', 'Pogi'));
+
+// // const functionWithDefault = (Fname, Mname = 'Sobra', Lname) => {
+// //     return `Hello! My full name is ${Lname}, ${Fname} ${Mname}`;
+// // };
+
+// // console.log(functionWithDefault('Ni Chester', undefined, 'Pogi'));
+
+// // // const functionAllDefault = (Fname = 'Ni Aven', Mname = 'Sobra', Lname = 'Pangit') => {
+// // //     return `Hello! My full name is ${Lname}, ${Fname} ${Mname}`;
+// // // };
+
+// // // console.log(functionAllDefault());
+/*---*/
+
+
+//========== Rest Parameters ==========//
+/*---*/
+// const employees = (emp1, emp2, emp3) => {
+//     return `Employee 1: ${emp1}\nEmployee 2: ${emp2}\nEmployee 3: ${emp3}`;
+// };
+
+// console.log(employees('Jane', 'John', 'Jake'));
+
+// // const employees = (emp1, emp2, emp3, ...emp) => {
+// //     return `Employee 1: ${emp1}\nEmployee 2: ${emp2}\nEmployee 3: ${emp3}`;
+// // };
+
+// // console.log(employees('Jane', 'John', 'Jake', 'Jean'));
+
+// // // const employeesModified = (...emp) => {
+// // //     for (let i = 0; i < emp.length; i++) {
+// // //         console.log(`Employee ${i+1}: ${emp[i]}`);
+// // //     }
+// // // };
+
+// // // employeesModified('Jane', 'John', 'Jake', 'Jean', 'Jian', 'Jade', 'Jimi', 'Jazz');
+/*---*/
+
+//========== Problem with JS ==========//
+/*---*/
+// // Doesn't catch potential erros
+// const multiplyTwoNumbers = (number1, number2) => {
+//     return number1 * number2;
+// }
+
+// console.log(multiplyTwoNumbers(2,3));
+// // console.log(multiplyTwoNumbers(2,3,4,5,6,7,8,9));
+// // // console.log(multiplyTwoNumbers(2));
+/*---*/
+
+/*---*/
+// // arguments object (not very common in practice)
+// const multiplyTwoNumbers = function() {
+//     let product = 1;
+//     for (let i = 0; i < arguments.length; i++) {
+//         product *= arguments[i];
+//     }
+//     return product;
+// }
+
+// console.log(multiplyTwoNumbers(2,3,4,5,6,7,8,9));
 /*---*/
 
 
