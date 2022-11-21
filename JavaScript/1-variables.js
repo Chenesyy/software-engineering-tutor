@@ -52,6 +52,10 @@ const sex = 'Female'; //unchanging variable. Recommended in practice
 // // console.log(text3);
 /*---*/
 
+/*---*/
+// Improvement: escape characters in string like \n \t etc
+/*---*/
+
 
 //========== Arithmetic Operators ==========//
 // Operators:
