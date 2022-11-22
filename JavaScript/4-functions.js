@@ -1,5 +1,5 @@
 /*---*/
-// let number = "nine one three"
+// let number = "nine one three";
 
 // const split_string = number.split(" ");
 
@@ -114,7 +114,7 @@
 //         return "1"
 //     }
 //     else if (number === "two") {
-//         return "index"
+//         return "2"
 //     }
 //     else if (number === "three") {
 //         return "3"
@@ -144,7 +144,7 @@
 
 // let numberSample = "nine one three";
 
-// const numberSample_split = number.split(" ");
+// const numberSample_split = numberSample.split(" ");
 
 // console.log(convert(numberSample_split[0]) + convert(numberSample_split[1]) + convert(numberSample_split[2]));
 /*---*/
@@ -152,17 +152,17 @@
 
 //========== Functions ==========//
 // Three ways in declaring functions:
-// Function Declaration
-// Function Expression
+// Function Declaration //obsolete
+// Function Expression //obsolete
 // Arrow Function
 
 /*---*/
 // Function Declaration
-// function sum1 (a, b) {
+// function sum1(a, b) {
 //     return a + b;
 // }
 
-// console.log(`Using sum2 = ${sum1(4, 1)}`);
+// console.log(`Using sum1 = ${sum1(4, 1)}`);
 /*---*/
 
 /*---*/
@@ -236,10 +236,11 @@
 // console.log(employees('Jane', 'John', 'Jake'));
 
 // // const employees = (emp1, emp2, emp3, ...emp) => {
+// //     // console.log(emp);
 // //     return `Employee 1: ${emp1}\nEmployee 2: ${emp2}\nEmployee 3: ${emp3}`;
 // // };
 
-// // console.log(employees('Jane', 'John', 'Jake', 'Jean'));
+// // console.log(employees('Jane', 'John', 'Jake', 'Jean', 'Jook'));
 
 // // // const employeesModified = (...emp) => {
 // // //     for (let i = 0; i < emp.length; i++) {
@@ -252,7 +253,7 @@
 
 //========== Problem with JS ==========//
 /*---*/
-// // Doesn't catch potential erros
+// Doesn't catch potential erros
 // const multiplyTwoNumbers = (number1, number2) => {
 //     return number1 * number2;
 // }
@@ -263,10 +264,10 @@
 /*---*/
 
 /*---*/
-// // arguments object (not very common in practice)
-// const multiplyTwoNumbers = function() {
+// arguments object (not very common in practice)
+// const multiplyTwoNumbers = () => {
 //     let product = 1;
-//     for (let i = 0; i < arguments.length; i++) {
+//     for (let i = 0; i < arguments.length; i++) {ss
 //         product *= arguments[i];
 //     }
 //     return product;
@@ -282,13 +283,14 @@
 //     const result = number % 2 === 0 ? true : false;
 //     return result;
 // }
-// console.log(`3 is an even number: ${isEven(3)}`);
-// console.log(`5 is an even number: ${isEven(5)}`);
-// console.log(`123347348372 is an even number: ${isEven(123347348372)}`);
 
 // // const isEven = (number) => {
 // //     return number % 2 === 0;
 // // }
+
+// console.log(`3 is an even number: ${isEven(3)}`);
+// console.log(`5 is an even number: ${isEven(5)}`);
+// console.log(`123347348372 is an even number: ${isEven(123347348372)}`);
 /*---*/
 
 /*---*/
@@ -299,12 +301,12 @@
 //     return false;
 // }
 
-// console.log(`34 is greater than 10 and less than 100: ${isGreaterThan10LessThan100(34)}`);
-// console.log(`100 is greater than 10 and less than 100: ${isGreaterThan10LessThan100(100)}`);
-
 // // const isGreaterThan10LessThan100 = (num) => {
 // //     return num > 10 && num < 100;
 // // }
+
+// console.log(`34 is greater than 10 and less than 100: ${isGreaterThan10LessThan100(34)}`);
+// console.log(`100 is greater than 10 and less than 100: ${isGreaterThan10LessThan100(100)}`);
 /*---*/
 
 /*---*/
@@ -313,19 +315,27 @@
 //     return false;
 // }
 
-// console.log(`34 is an odd number and/or divisible by 3: ${isOddOrisDivisibleBy3(34)}`);
-// console.log(`71 is an odd number and/or divisible by 3: ${isOddOrisDivisibleBy3(71)}`);
-// console.log(`93 is an odd number and/or divisible by 3: ${isOddOrisDivisibleBy3(93)}`);
-
 // // const isOddOrisDivisibleBy3 = (num) => {
 // //     return num % 2 !== 0 || num % 3 === 0;
 // // }
+
+// console.log(`34 is an odd number and/or divisible by 3: ${isOddOrisDivisibleBy3(34)}`);
+// console.log(`71 is an odd number and/or divisible by 3: ${isOddOrisDivisibleBy3(71)}`);
+// console.log(`93 is an odd number and/or divisible by 3: ${isOddOrisDivisibleBy3(93)}`);
 /*---*/
 
 /*---*/
 // const isEvenNumber = (num) => {
-//     return num % 2 === 0 ? `${num} is an even number` : `${num} is an odd number`;
+//     if (num % 2 === 0) { 
+//         return `${num} is an even number` 
+//     } else {
+//         return `${num} is an odd number`;
+//     }
 // }
+
+// // const isEvenNumber = (num) => {
+// //     return num % 2 === 0 ? `${num} is an even number` : `${num} is an odd number`;
+// // }
 
 // console.log(isEvenNumber(12));
 // console.log(isEvenNumber(35));
@@ -340,7 +350,7 @@
 //     return num % 2 === 0 ? `${num} is an even number` : `${num} is an odd number`;
 // }
 
-// const isEvenNumber = (string) => {
+// const isEvenNumber = (string, num) => {
 //     return string === 'even' ? `It is an ${even} number` : `It is not an ${even} number`;
 // }
 
