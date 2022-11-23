@@ -267,7 +267,16 @@
 // arguments object (not very common in practice)
 // const multiplyTwoNumbers = () => {
 //     let product = 1;
-//     for (let i = 0; i < arguments.length; i++) {ss
+//     console.log(arguments);
+//     for (let i = 0; i < arguments.length; i++) {
+//         product *= arguments[i];
+//     }
+//     return product;
+// }
+
+// const multiplyTwoNumbers = function() {
+//     let product = 1;
+//     for (let i = 0; i < arguments.length; i++) {
 //         product *= arguments[i];
 //     }
 //     return product;
