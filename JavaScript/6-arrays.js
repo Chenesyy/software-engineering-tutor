@@ -123,6 +123,51 @@ const numArray = [12, 44, 78, 2, 48, 29, 91, 100];
 // When copying
 // let names = ['Aven', 'Sy', 'Panget'];
 // let namesCopy = ['Chester', 'Pogi', ...names, 'Sobra'];
+// // let namesCopyCopy = [ ...names, ...namesCopy ];
 
 // console.log(namesCopy);
+// // console.log(namesCopyCopy);
+/*---*/
+
+/*---*/
+// let animals = ['Dog', 'Cat', 'Horse', 'Turtle'];
+// let animals_copy = animals;
+// // let animals_copy = [...animals];
+
+// animals_copy.push('Dinosaur');
+
+// console.log(animals);
+/*---*/
+
+/*---*/
+// const sum = (a, b, c, d, e) => {
+//     return a + b;
+// };
+
+// // const sum = (...numbers) => {
+// //     let total = 0;
+// //     numbers.forEach(number => {
+// //         total += number;
+// //     });
+// //     return total;
+// // };
+
+// let array = [1,2,3,4,5];
+
+// console.log(sum(1,2,3,4,5));
+// console.log(sum(...array));
+/*---*/
+
+/*---*/
+let array = [12, 45, 46, 15, 10, 91];
+
+// console.log(Math.min(...array));
+/*---*/
+
+/*---*/
+// let [idx0, idx1, ...idxn] = array;
+
+// console.log(idx0);
+// console.log(idx1);
+// console.log(idxn);
 /*---*/
