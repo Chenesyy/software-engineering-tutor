@@ -70,3 +70,31 @@ let object = {
 // console.log(divisible3And5);
 // // console.log(divisible3And5Incorrect);
 /*---*/
+
+/*---*/
+// When copying
+// let info = {
+//     work: 'SE',
+//     years: 3
+// };
+
+// let info_copy = info;
+// // let info_copy = { ...info };
+
+// console.log(info_copy);
+
+// info_copy.work = 'ME';
+
+// console.log(info_copy);
+/*---*/
+
+/*---*/
+let { company, ...details } = { //spread operators is always last
+    company: 'Jabee',
+    hotline: '87000',
+    food: 'chimkin'
+};
+
+console.log(company);
+console.log(details);
+/*---*/
